@@ -12,7 +12,7 @@ const FlightDetailModal: React.FC<FlightDetailModalProps> = ({ flight, onClose }
   const originAirport = getAirportByCode(flight.origin);
   const destinationAirport = getAirportByCode(flight.destination);
 
-  // Generate random amenities for the flight
+  // Generate random amenities
   const amenities = [
     { icon: <Wifi className="h-4 w-4 mr-2" />, name: 'Wi-Fi', available: Math.random() > 0.3 },
     { icon: <Plug className="h-4 w-4 mr-2" />, name: 'Power Outlets', available: Math.random() > 0.2 },
