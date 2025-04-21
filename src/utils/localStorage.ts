@@ -9,6 +9,7 @@ export const saveSearchToHistory = (searchParams: SearchParams): void => {
     id: crypto.randomUUID(),
     searchParams,
     timestamp: Date.now()
+    
   };
   
   // Add to beginning of array (most recent first)
