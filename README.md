@@ -42,7 +42,7 @@ SkyCompare is a modern web application that helps users find and compare flight 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/skycompare.git
+git clone https://github.com/hardikjumnani/skycompare.git
 ```
 
 2. Install dependencies:
