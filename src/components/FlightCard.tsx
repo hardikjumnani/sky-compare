@@ -93,6 +93,7 @@ const FlightCard: React.FC<FlightCardProps> = ({ flight, onClick }) => {
             onClick={(e) => {
               e.stopPropagation();
               onClick && onClick();
+              
             }}
             className="text-sm font-medium text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300 transition-colors flex items-center"
           >
